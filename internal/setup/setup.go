@@ -28,6 +28,7 @@ func Setup(config etc.Configuration) (err error) {
 	}
 
 	for _, component := range components {
+
 		if err := component(); err != nil {
 			return err
 		}
