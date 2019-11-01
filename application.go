@@ -4,9 +4,9 @@ import (
 	"fmt"
 	log "github.com/jeanphorn/log4go"
 	"github.com/lishimeng/go-libs/shutdown"
+	"github.com/lishimeng/gouchen/etc"
 	"github.com/lishimeng/gouchen/internal/codec"
 	"github.com/lishimeng/gouchen/internal/connector"
-	"github.com/lishimeng/gouchen/internal/etc"
 	"github.com/lishimeng/gouchen/internal/setup"
 )
 
@@ -56,5 +56,5 @@ func RegisterComponent(component func() error) {
 }
 
 func RegisterDbModel(model interface{}) {
-	setup.RegisterModel(model)
+	setup.RegisterDbModel(model)
 }

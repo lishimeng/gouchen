@@ -3,8 +3,8 @@ package downlink
 import (
 	"encoding/json"
 	log "github.com/jeanphorn/log4go"
+	"github.com/lishimeng/gouchen/etc"
 	"github.com/lishimeng/gouchen/internal/db/repo"
-	"github.com/lishimeng/gouchen/internal/etc"
 	"github.com/lishimeng/gouchen/internal/event"
 	"github.com/lishimeng/gouchen/internal/model"
 	"time"

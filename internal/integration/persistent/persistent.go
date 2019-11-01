@@ -3,7 +3,7 @@ package persistent
 import (
 	log "github.com/jeanphorn/log4go"
 	"github.com/lishimeng/go-connector/influx"
-	"github.com/lishimeng/gouchen/internal/etc"
+	"github.com/lishimeng/gouchen/etc"
 )
 
 var influxClient *influx.Connector

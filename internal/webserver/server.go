@@ -4,7 +4,7 @@ import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/middleware/logger"
 	"github.com/lishimeng/go-libs/web"
-	"github.com/lishimeng/gouchen/internal/etc"
+	"github.com/lishimeng/gouchen/etc"
 	"github.com/lishimeng/gouchen/internal/static"
 )
 
@@ -26,6 +26,5 @@ func Run(components ...web.Component) {
 			app.StaticEmbedded("/", "", static.Asset, static.AssetNames)
 		}).
 		Start(components...)
-
 
 }

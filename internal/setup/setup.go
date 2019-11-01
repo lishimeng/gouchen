@@ -1,6 +1,6 @@
 package setup
 
-import "github.com/lishimeng/gouchen/internal/etc"
+import "github.com/lishimeng/gouchen/etc"
 
 var components = []func() error{
 	dbRepo,

@@ -1,7 +1,7 @@
 package message
 
 import (
-	"github.com/lishimeng/gouchen/internal/etc"
+	"github.com/lishimeng/gouchen/etc"
 	"github.com/lishimeng/gouchen/internal/integration/persistent"
 	"github.com/lishimeng/gouchen/internal/model"
 )

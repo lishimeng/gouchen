@@ -3,9 +3,9 @@ package setup
 import (
 	_ "github.com/lib/pq"
 	"github.com/lishimeng/go-libs/persistence"
+	"github.com/lishimeng/gouchen/etc"
 	"github.com/lishimeng/gouchen/internal/db"
 	"github.com/lishimeng/gouchen/internal/db/repo"
-	"github.com/lishimeng/gouchen/internal/etc"
 )
 
 var databaseModels []interface{}
