@@ -42,7 +42,7 @@ func dbRepo() (err error) {
 		return err
 	}
 	if len(databaseModels) > 0 {
-		for model := range databaseModels {
+		for _, model := range databaseModels {
 			db.RegisterModel(model)
 		}
 	}
